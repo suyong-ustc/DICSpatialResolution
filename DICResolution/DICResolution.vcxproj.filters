@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\DIC">
+      <UniqueIdentifier>{87ad10ee-d607-4cd8-8296-c0c1e3357a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Interpolation">
+      <UniqueIdentifier>{5194d441-d74b-46e2-9c14-95b83bb98a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DIC">
+      <UniqueIdentifier>{dd7d9690-f5a4-4146-92fd-acc5c14cdb45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Interpolation">
+      <UniqueIdentifier>{7c6a9ecc-05f4-46c1-9c2d-8090f3d2704e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DIC\DICAlgorithm.cpp">
+      <Filter>源文件\DIC</Filter>
+    </ClCompile>
+    <ClCompile Include="DIC\DICOutput.cpp">
+      <Filter>源文件\DIC</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\BicubicMOMSInterpolator.cpp">
+      <Filter>源文件\Interpolation</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\BiquinticBSplineInterpolatror.cpp">
+      <Filter>源文件\Interpolation</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\BisepticBSplineInterpolator.cpp">
+      <Filter>源文件\Interpolation</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Interpolator.cpp">
+      <Filter>源文件\Interpolation</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DIC\DICAlgorithm.h">
+      <Filter>头文件\DIC</Filter>
+    </ClInclude>
+    <ClInclude Include="DIC\DICOutput.h">
+      <Filter>头文件\DIC</Filter>
+    </ClInclude>
+    <ClInclude Include="DIC\DICParameters.h">
+      <Filter>头文件\DIC</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\BicubicMOMSInterpolator.h">
+      <Filter>头文件\Interpolation</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\BiquinticBSplineInterpolatror.h">
+      <Filter>头文件\Interpolation</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\BisepticBSplineInterpolator.h">
+      <Filter>头文件\Interpolation</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Interpolator.h">
+      <Filter>头文件\Interpolation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
