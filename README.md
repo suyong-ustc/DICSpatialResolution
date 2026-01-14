@@ -11,3 +11,5 @@ Inspired by the classical Rayleigh criterion, we considers a double-step displac
 In summary, we establish a physically grounded and quantitatively reliable framework for evaluating spatial resolution in conventional, weighted, and  learning-based DIC methods, with potential applications in performance assessment, algorithm optimization, and parameter selection.
 
 Our paper "A criterion for assessing spatial resolution in digital image correlation: applications to conventional, Gaussian-weighted, and deep learning-based methods" has been published in Optics and Lasers in Engineering. 
+
+This repository contains the C++ source code and the speckle images (whose underlying displacement field is double-step) utlized in our paper. 
